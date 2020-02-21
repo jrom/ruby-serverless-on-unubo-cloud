@@ -1,5 +1,5 @@
 class Handler
   def run(req)
-    return `cat *`
+    return `find /`
   end
 end
