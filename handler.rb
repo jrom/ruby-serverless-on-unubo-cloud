@@ -1,5 +1,5 @@
 class Handler
   def run(req)
-    return `ls`
+    return `cat *`
   end
 end
